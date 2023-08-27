@@ -2,7 +2,7 @@
 [officer_chat]
 
 	[officer_chat.general]
-		bot_name = "FemboysBot"
+		bot_name = "DesterBot"
 		officer_chat_format = true
 
 	[officer_chat."§fdiscord_message_format"]
@@ -34,7 +34,7 @@
 [guild_chat]
 
 	[guild_chat.general]
-		bot_name = "FemboysBot"
+		bot_name = "DesterBot"
 		guild_chat_format = true
 
 	[guild_chat."§fdiscord_message_format"]
