@@ -1,5 +1,5 @@
 import { @Vigilant, @TextProperty, @ColorProperty, @ButtonProperty, @SwitchProperty, @SelectorProperty, Color} from 'Vigilance';
-@Vigilant('French Legacy Bridge' {
+@Vigilant('French Legacy Bridge', 'French Legacy Bridge', {
     getCategoryComparator: () => (a, b) => {
         const categories = ['Guild Chat', 'Officer Chat', 'Command Handler', 'Event Handler'];
         return categories.indexOf(a.name) - categories.indexOf(b.name);
