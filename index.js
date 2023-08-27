@@ -2,7 +2,7 @@ import Settings from "./settings";
 const config = Settings
 let guildRank, guildArrow = '', discordMessage, officerRank, officerArrow, discordUsername
 
-register("command", () => config.openGUI()).setName("bridge");
+register("command", () => config.openGUI()).setName("flbridge");
 
 register("chat", function (event) {
   const fullMessage = ChatLib.getChatMessage(event)
