@@ -28,7 +28,7 @@ register("chat", function (event) {
       if (config.eventHandlerFormat) {
         cancel(event)
         const hypixelEvent = guildDiscordMessage[0].split(']')
-        const response = `§2Guild > ${getColorCode(config.eventColor)}§l[EVENT]${getColorCode(config.eventMessageColor)}${hypixelEvent[1]} ${getColorCode(config.eventArrowColor)}» ${getColorCode(config.eventTimeColor)}${guildDiscordMessage[1]}`
+        const response = `§2Guild > ${getColorCode(config.eventColor)}§l[EVENT]${getColorCode(config.eventMessageColor)}${hypixelEvent[1]} ${getColorCode(config.eventArrowColor)}: ${getColorCode(config.eventTimeColor)}${guildDiscordMessage[1]}`
         const title = hypixelEvent[1].split('(')
         Client.showTitle(`${getColorCode(config.eventTitleColor)}${title[0]}`,`${guildDiscordMessage[1]}`, 1, 15, 1);
         // note.pling & random.orb & note.harp & random.successful_hit
